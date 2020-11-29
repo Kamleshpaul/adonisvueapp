@@ -1,0 +1,22 @@
+{
+  "name": "adonisvueapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server  && node ace serve --watch \" \" cd client && npm run serve\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamleshpaul/adonisvueapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamleshpaul/adonisvueapp/issues"
+  },
+  "homepage": "https://github.com/Kamleshpaul/adonisvueapp#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
